@@ -12,15 +12,15 @@ $(window).on('load', function() {
   /**
    * Returns an Awesome marker with specified parameters
    */
-  function createMarkerIcon(icon, prefix, markerColor, iconColor) {
+
+function createMarkerIcon(icon, prefix, markerColor, iconColor) {
     return L.AwesomeMarkers.icon({
       icon: icon,
       prefix: prefix,
       markerColor: markerColor,
-      iconColor: iconColorת
-      });
+      iconColor: iconColor
+    });
   }
-
 
   /**
    * Sets the map view so that all markers are visible, or
