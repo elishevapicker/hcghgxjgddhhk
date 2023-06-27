@@ -17,9 +17,8 @@ $(window).on('load', function() {
       icon: icon,
       prefix: prefix,
       markerColor: markerColor,
-      iconColor: iconColorת,
-      
-    });
+      iconColor: iconColorת
+      });
   }
 
 
